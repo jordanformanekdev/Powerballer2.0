@@ -1,0 +1,171 @@
+/*
+*
+* Generic CSS Components
+*
+*/
+body {
+    background: #3f733f;
+    font-family: 'Raleway';
+}
+
+.navbar{
+    background: #041604;
+    border-radius: 0px;
+    border: solid .5px #2e382e;
+    box-shadow: 0px 1px 10px #000;
+    color: #FFFFFF;
+    margin: 1px;
+}
+.fa-btn {
+    margin-right: 6px;
+}
+
+.table-text div {
+    padding-top: 6px;
+}
+
+/*
+*
+* SmartBar CSS Components
+*
+*/
+
+.smartBarTable{
+    background: #041604;
+    border: solid 1px #2e382e;
+    color: #FFFFFF;
+    margin-top: .5px;
+    width: 100%;
+}
+
+.smartBarHeader{
+    background: #092a09;
+    border-bottom: solid 1px #2e382e;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+}
+
+.smartBarRow{
+}
+
+.smartBarCell{
+    margin: 1px;
+    text-align: center;
+}
+
+/*
+*
+* DrawTable CSS Components
+*
+*/
+.matrixPanel{
+    background: #041604;
+    box-shadow: 0px 1px 10px #000;
+    color: #FFFFFF;
+    display: block;
+    font-size: 18px;
+    margin: 2px;
+    padding: 1px;
+}
+
+.drawTable{
+    background: #041604;
+    display: inline-block;
+    margin: .5px;
+    padding: 2px;
+}
+
+.drawTableHeader{
+    background: #092a09;
+    border-bottom: solid 1px #2e382e;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+}
+
+.drawTableRow{
+    background: #041604;
+}
+
+.drawTableCellGrey{
+    background: #041604;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+    width: 60px;
+}
+
+.drawTableCellBlue{
+    background: #4131F5;
+    border-radius: 60%;
+    box-shadow: .5px .5px #151538;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+    width: 60px;
+}
+
+.drawTableCellRed{
+    background: #E31414;
+    color: #FFFFFF;
+    box-shadow: .5px .5px #151538;
+    border-radius: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    height: 30px;
+    width: 60px;
+    margin: 2px;
+}
+
+/*
+*
+* drawInfoPanel CSS Components
+*
+*/
+.drawInfoPanel{
+    background: #211a12;
+    box-shadow: 0px 1px 10px #000;
+    color: #FFFFFF;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.drawInfoTable{
+    border: none;
+    box-shadow: -1px 1px 5px #1d1b16;
+    padding: 5px;
+    display: inline-block;
+}
+
+.drawInfoTableHeader{
+    text-align: center;
+    font-size: 16px;
+    background: #092a09;
+    color: #FFFFFF;
+    border-bottom: solid 1px #2e382e;
+}
+
+.drawInfoTableRow{
+    background: #092a09;
+    border: none;
+}
+
+.drawInfoTableCell{
+    border: none;
+    font-style: italic;
+    padding: 5px;
+}
+
+.drawInfoButtons{
+    text-align: center;
+}
